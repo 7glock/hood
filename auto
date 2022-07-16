@@ -1,0 +1,213 @@
+-- first
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(.5, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(466.3482666015625, 619.9899291992188, -195.0320587158203)}):Play()
+local amount=5
+for i=1,amount do
+	local toolname =  "WALLET"
+	wait(.01)
+	game.Players.LocalPlayer.Backpack:FindFirstChild(toolname).Parent = game.Players.LocalPlayer.Character
+	wait(.01)
+	game:GetService'Players'.LocalPlayer.Character:FindFirstChildOfClass'Humanoid':UnequipTools()
+end
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(.1, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(466.3482666015625, 619.9899291992188, -195.0320587158203)}):Play()
+wait(.5)
+for i,v in pairs(game.Workspace:GetDescendants()) do -- get workspace and his dependencies
+	if v.Name == "register" then
+		fireproximityprompt(v.ProximityPrompt) -- fires the prompt inside of the object ( make sure your object has a proximityprompt )
+	end
+end
+
+
+wait(2)
+-- second
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(.5, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(168.95053100585938, 627.1924438476562, 757.4810180664062)}):Play()
+local amount=5
+for i=1,amount do
+	local toolname =  "WALLET"
+	wait(.01)
+	game.Players.LocalPlayer.Backpack:FindFirstChild(toolname).Parent = game.Players.LocalPlayer.Character
+	wait(.01)
+	game:GetService'Players'.LocalPlayer.Character:FindFirstChildOfClass'Humanoid':UnequipTools()
+end
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(.1, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(168.95053100585938, 627.1924438476562, 757.4810180664062)}):Play()
+wait(.5)
+for i,v in pairs(game.Workspace:GetDescendants()) do -- get workspace and his dependencies
+	if v.Name == "register" then
+		fireproximityprompt(v.ProximityPrompt) -- fires the prompt inside of the object ( make sure your object has a proximityprompt )
+	end
+end
+
+wait(2)
+-- third
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(.5, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-435.6639709472656, 627.19287109375, 974.421630859375)}):Play()
+local amount=5
+for i=1,amount do
+	local toolname =  "WALLET"
+	wait(.01)
+	game.Players.LocalPlayer.Backpack:FindFirstChild(toolname).Parent = game.Players.LocalPlayer.Character
+	wait(.01)
+	game:GetService'Players'.LocalPlayer.Character:FindFirstChildOfClass'Humanoid':UnequipTools()
+end
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(.1, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-435.6639709472656, 627.19287109375, 974.421630859375)}):Play()
+wait(.5)
+for i,v in pairs(game.Workspace:GetDescendants()) do -- get workspace and his dependencies
+	if v.Name == "register" then
+		fireproximityprompt(v.ProximityPrompt) -- fires the prompt inside of the object ( make sure your object has a proximityprompt )
+	end
+end
+
+
+-- 4
+wait(2)
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(.5, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(364.2357177734375, 627.192626953125, 731.8009033203125)}):Play()
+local amount=5
+for i=1,amount do
+	local toolname =  "WALLET"
+	wait(.01)
+	game.Players.LocalPlayer.Backpack:FindFirstChild(toolname).Parent = game.Players.LocalPlayer.Character
+	wait(.01)
+	game:GetService'Players'.LocalPlayer.Character:FindFirstChildOfClass'Humanoid':UnequipTools()
+end
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(.1, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(364.2357177734375, 627.192626953125, 731.8009033203125)}):Play()
+wait(.5)
+for i,v in pairs(game.Workspace:GetDescendants()) do -- get workspace and his dependencies
+	if v.Name == "register" then
+		fireproximityprompt(v.ProximityPrompt) -- fires the prompt inside of the object ( make sure your object has a proximityprompt )
+	end
+end
+
+--5
+wait(2)
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(.5, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(217.9545440673828, 627.193603515625, 483.5503845214844)}):Play()
+local amount=5
+for i=1,amount do
+	local toolname =  "WALLET"
+	wait(.01)
+	game.Players.LocalPlayer.Backpack:FindFirstChild(toolname).Parent = game.Players.LocalPlayer.Character
+	wait(.01)
+	game:GetService'Players'.LocalPlayer.Character:FindFirstChildOfClass'Humanoid':UnequipTools()
+end
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(.1, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(217.9545440673828, 627.193603515625, 483.5503845214844)}):Play()
+wait(.5)
+for i,v in pairs(game.Workspace:GetDescendants()) do -- get workspace and his dependencies
+	if v.Name == "register" then
+		fireproximityprompt(v.ProximityPrompt) -- fires the prompt inside of the object ( make sure your object has a proximityprompt )
+	end
+end
+
+
+--6
+wait(2)
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(.5, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(235.54681396484375, 627.1925659179688, 950.580810546875)}):Play()
+local amount=5
+for i=1,amount do
+	local toolname =  "WALLET"
+	wait(.01)
+	game.Players.LocalPlayer.Backpack:FindFirstChild(toolname).Parent = game.Players.LocalPlayer.Character
+	wait(.01)
+	game:GetService'Players'.LocalPlayer.Character:FindFirstChildOfClass'Humanoid':UnequipTools()
+end
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(.1, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(235.54681396484375, 627.1925659179688, 950.580810546875)}):Play()
+wait(.5)
+for i,v in pairs(game.Workspace:GetDescendants()) do -- get workspace and his dependencies
+	if v.Name == "register" then
+		fireproximityprompt(v.ProximityPrompt) -- fires the prompt inside of the object ( make sure your object has a proximityprompt )
+	end
+end
+
+--7
+wait(2)
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(.5, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-725.6260986328125, 627.318603515625, 185.0790557861328)}):Play()
+local amount=5
+for i=1,amount do
+	local toolname =  "WALLET"
+	wait(.01)
+	game.Players.LocalPlayer.Backpack:FindFirstChild(toolname).Parent = game.Players.LocalPlayer.Character
+	wait(.01)
+	game:GetService'Players'.LocalPlayer.Character:FindFirstChildOfClass'Humanoid':UnequipTools()
+end
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(.1, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-725.6260986328125, 627.318603515625, 185.0790557861328)}):Play()
+wait(.5)
+for i,v in pairs(game.Workspace:GetDescendants()) do -- get workspace and his dependencies
+	if v.Name == "register" then
+		fireproximityprompt(v.ProximityPrompt) -- fires the prompt inside of the object ( make sure your object has a proximityprompt )
+	end
+end
+
+
+--8
+wait(2)
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(.5, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-819.43017578125, 630.1674194335938, 197.31658935546875)}):Play()
+local amount=5
+for i=1,amount do
+	local toolname =  "WALLET"
+	wait(.01)
+	game.Players.LocalPlayer.Backpack:FindFirstChild(toolname).Parent = game.Players.LocalPlayer.Character
+	wait(.01)
+	game:GetService'Players'.LocalPlayer.Character:FindFirstChildOfClass'Humanoid':UnequipTools()
+end
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(.1, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-819.43017578125, 630.1674194335938, 197.31658935546875)}):Play()
+wait(.5)
+for i,v in pairs(game.Workspace:GetDescendants()) do -- get workspace and his dependencies
+	if v.Name == "register" then
+		fireproximityprompt(v.ProximityPrompt) -- fires the prompt inside of the object ( make sure your object has a proximityprompt )
+	end
+end
+
+
+--9
+wait(2)
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(.5, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(66.10553741455078, 619.5739135742188, -39.857032775878906)}):Play()
+local amount=5
+for i=1,amount do
+	local toolname =  "WALLET"
+	wait(.01)
+	game.Players.LocalPlayer.Backpack:FindFirstChild(toolname).Parent = game.Players.LocalPlayer.Character
+	wait(.01)
+	game:GetService'Players'.LocalPlayer.Character:FindFirstChildOfClass'Humanoid':UnequipTools()
+end
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(.1, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(66.10553741455078, 619.5739135742188, -39.857032775878906)}):Play()
+wait(.5)
+for i,v in pairs(game.Workspace:GetDescendants()) do -- get workspace and his dependencies
+	if v.Name == "register" then
+		fireproximityprompt(v.ProximityPrompt) -- fires the prompt inside of the object ( make sure your object has a proximityprompt )
+	end
+end
+
+--10
+wait(2)
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(.5, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-297.66864013671875, 619.6376953125, -92.75920104980469)}):Play()
+local amount=5
+for i=1,amount do
+	local toolname =  "WALLET"
+	wait(.01)
+	game.Players.LocalPlayer.Backpack:FindFirstChild(toolname).Parent = game.Players.LocalPlayer.Character
+	wait(.01)
+	game:GetService'Players'.LocalPlayer.Character:FindFirstChildOfClass'Humanoid':UnequipTools()
+end
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(.1, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-297.66864013671875, 619.6376953125, -92.75920104980469)}):Play()
+wait(.5)
+for i,v in pairs(game.Workspace:GetDescendants()) do -- get workspace and his dependencies
+	if v.Name == "register" then
+		fireproximityprompt(v.ProximityPrompt) -- fires the prompt inside of the object ( make sure your object has a proximityprompt )
+	end
+end
